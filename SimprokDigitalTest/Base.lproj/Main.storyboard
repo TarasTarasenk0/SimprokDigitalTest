@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="02L-AD-I0g">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -33,18 +33,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="InstructorsViewController" customModule="SimprokDigitalTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZA-2Z-H3A">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="190.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="162.5"/>
                                 <color key="backgroundColor" red="0.23921075463294983" green="0.33414861559867859" blue="0.66126245260238647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5C4-OH-Uaz">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="281"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="236"/>
                                 <subviews>
                                     <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="q72-2h-R6b">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="yuw-Pb-Oxp"/>
                                         </constraints>
@@ -84,16 +84,16 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zdl-Bv-ASa">
-                                <rect key="frame" x="0.0" y="281" width="375" height="337"/>
+                                <rect key="frame" x="0.0" y="236" width="320" height="283"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top rated instructors in Zurich" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gO0-lz-zFK">
-                                        <rect key="frame" x="16" y="2" width="339" height="20.5"/>
+                                        <rect key="frame" x="16" y="18" width="284" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                         <color key="textColor" red="0.46482181824640673" green="0.46942401446666815" blue="0.46942401446666815" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZgG-PN-fR7">
-                                        <rect key="frame" x="16" y="30" width="343" height="307"/>
+                                        <rect key="frame" x="16" y="46" width="288" height="237"/>
                                         <color key="backgroundColor" red="0.9800603985786438" green="0.98097175359725952" blue="0.98783212900161743" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="b9N-TZ-8w3">
                                             <size key="itemSize" width="165" height="200"/>
@@ -108,7 +108,7 @@
                                         </connections>
                                     </collectionView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="INA-6H-T4g">
-                                        <rect key="frame" x="305" y="267" width="50" height="50"/>
+                                        <rect key="frame" x="250" y="213" width="50" height="50"/>
                                         <color key="backgroundColor" red="0.94537967443466187" green="0.75343859195709229" blue="0.18980097770690918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="BSh-wa-p6a"/>
@@ -135,16 +135,16 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eh7-pY-FyG">
-                                <rect key="frame" x="191.5" y="145.5" width="167.5" height="125.5"/>
+                                <rect key="frame" x="164" y="137" width="140" height="105"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a school" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSG-jq-6Ag">
-                                        <rect key="frame" x="0.0" y="96.5" width="167.5" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="77.5" width="140" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOP-ae-EyU">
-                                        <rect key="frame" x="43.5" y="8" width="80.5" height="80.5"/>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOP-ae-EyU">
+                                        <rect key="frame" x="40" y="8" width="60" height="60"/>
                                         <color key="backgroundColor" red="0.99567109346389771" green="0.97200816869735718" blue="0.88643258810043335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="wOP-ae-EyU" secondAttribute="height" multiplier="1:1" id="gd1-OE-am1"/>
@@ -153,7 +153,7 @@
                                         <state key="normal" image="graduationIcon"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="39"/>
+                                                <real key="value" value="0.0"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
@@ -175,10 +175,10 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qg1-0w-AwZ">
-                                <rect key="frame" x="16" y="145.5" width="167.5" height="125.5"/>
+                                <rect key="frame" x="16" y="137" width="140" height="105"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0t-Fc-aOh">
-                                        <rect key="frame" x="43.5" y="8" width="80.5" height="80.5"/>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0t-Fc-aOh">
+                                        <rect key="frame" x="40" y="8" width="60" height="60"/>
                                         <color key="backgroundColor" red="0.99174922704696655" green="0.96808785200119019" blue="0.88251286745071411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="i0t-Fc-aOh" secondAttribute="height" multiplier="1:1" id="boS-xu-l8e"/>
@@ -188,13 +188,13 @@
                                         <state key="normal" image="wheelIcon"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="39"/>
+                                                <real key="value" value="0.0"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find an instructor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNX-AA-1HR">
-                                        <rect key="frame" x="0.0" y="96.5" width="167.5" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="77.5" width="140" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -248,6 +248,8 @@
                     <tabBarItem key="tabBarItem" title="Explore" image="flameIcon" id="iqu-pv-0ar"/>
                     <connections>
                         <outlet property="collectionView" destination="ZgG-PN-fR7" id="e0S-Oe-edP"/>
+                        <outlet property="instructorButton" destination="i0t-Fc-aOh" id="PtR-j2-IHB"/>
+                        <outlet property="schoolButton" destination="wOP-ae-EyU" id="EJg-aI-qox"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

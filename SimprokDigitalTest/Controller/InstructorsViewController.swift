@@ -6,12 +6,15 @@
 //  Copyright © 2019 md760. All rights reserved.
 //
 
+
 import UIKit
 import SVProgressHUD
 
 class InstructorsViewController: UIViewController {
+    @IBOutlet weak var schoolButton: UIButton!
     
-   private let cellId = "cellId"
+    @IBOutlet weak var instructorButton: UIButton!
+    private let cellId = "cellId"
    private var sinceCount: Int = 20
    private var instructorsArray = [InstructorsModel]()
     
@@ -49,6 +52,12 @@ class InstructorsViewController: UIViewController {
     
     private func setupView() {
         self.collectionView.register(UINib(nibName: "InstructorsCell", bundle: nil), forCellWithReuseIdentifier: cellId)
+        
+        let cornerRadius = schoolButton.frame.width / 2
+        schoolButton.layer.cornerRadius = cornerRadius
+        instructorButton.layer.cornerRadius = cornerRadius
+
+        
     }
     
 }
