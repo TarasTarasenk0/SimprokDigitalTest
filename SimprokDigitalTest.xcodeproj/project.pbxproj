@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3047ED3022DDB9EA006B3124 /* InstructorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047ED2F22DDB9EA006B3124 /* InstructorsModel.swift */; };
+		3047ED3222DDBDC3006B3124 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047ED3122DDBDC3006B3124 /* ApiService.swift */; };
+		304EA1BA22DDF56D00FCC7E7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304EA1B922DDF56C00FCC7E7 /* TabBarController.swift */; };
+		3088F46522DC88DD009DE1A2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3088F46422DC88DD009DE1A2 /* Extensions.swift */; };
+		3088F46822DC9C16009DE1A2 /* InstructorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3088F46622DC9C16009DE1A2 /* InstructorsCell.swift */; };
+		3088F46922DC9C16009DE1A2 /* InstructorsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3088F46722DC9C16009DE1A2 /* InstructorsCell.xib */; };
+		30B58BAA22DB8B96000FFBBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B58BA922DB8B96000FFBBF /* AppDelegate.swift */; };
+		30B58BAC22DB8B96000FFBBF /* InstructorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B58BAB22DB8B96000FFBBF /* InstructorsViewController.swift */; };
+		30B58BAF22DB8B96000FFBBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B58BAD22DB8B96000FFBBF /* Main.storyboard */; };
+		30B58BB122DB8B9C000FFBBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B58BB022DB8B9C000FFBBF /* Assets.xcassets */; };
+		30B58BB422DB8B9C000FFBBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B58BB222DB8B9C000FFBBF /* LaunchScreen.storyboard */; };
+		85883C6F78F33D2771D4BB21 /* Pods_SimprokDigitalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378C9BB1283233FEFE529D22 /* Pods_SimprokDigitalTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3047ED2F22DDB9EA006B3124 /* InstructorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorsModel.swift; sourceTree = "<group>"; };
+		3047ED3122DDBDC3006B3124 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		304EA1B922DDF56C00FCC7E7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		3088F46422DC88DD009DE1A2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3088F46622DC9C16009DE1A2 /* InstructorsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorsCell.swift; sourceTree = "<group>"; };
+		3088F46722DC9C16009DE1A2 /* InstructorsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstructorsCell.xib; sourceTree = "<group>"; };
+		30B58BA622DB8B96000FFBBF /* SimprokDigitalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimprokDigitalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B58BA922DB8B96000FFBBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30B58BAB22DB8B96000FFBBF /* InstructorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorsViewController.swift; sourceTree = "<group>"; };
+		30B58BAE22DB8B96000FFBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30B58BB022DB8B9C000FFBBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30B58BB322DB8B9C000FFBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30B58BB522DB8B9C000FFBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378C9BB1283233FEFE529D22 /* Pods_SimprokDigitalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimprokDigitalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEE0FA83805DC09348E8AC1 /* Pods-SimprokDigitalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimprokDigitalTest.debug.xcconfig"; path = "Target Support Files/Pods-SimprokDigitalTest/Pods-SimprokDigitalTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DE67463E1B93CC911EE14A36 /* Pods-SimprokDigitalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimprokDigitalTest.release.xcconfig"; path = "Target Support Files/Pods-SimprokDigitalTest/Pods-SimprokDigitalTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30B58BA322DB8B96000FFBBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85883C6F78F33D2771D4BB21 /* Pods_SimprokDigitalTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3047ED2E22DDB9D6006B3124 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3047ED2F22DDB9EA006B3124 /* InstructorsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3047ED3322DDBE1C006B3124 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3088F46422DC88DD009DE1A2 /* Extensions.swift */,
+				3047ED3122DDBDC3006B3124 /* ApiService.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3047ED3422DDBE34006B3124 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3088F46622DC9C16009DE1A2 /* InstructorsCell.swift */,
+				3088F46722DC9C16009DE1A2 /* InstructorsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3047ED3522DDC1D0006B3124 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30B58BAB22DB8B96000FFBBF /* InstructorsViewController.swift */,
+				304EA1B922DDF56C00FCC7E7 /* TabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		30B58B9D22DB8B96000FFBBF = {
+			isa = PBXGroup;
+			children = (
+				30B58BA822DB8B96000FFBBF /* SimprokDigitalTest */,
+				30B58BA722DB8B96000FFBBF /* Products */,
+				E3465DB2B3AA24E94FC0A389 /* Pods */,
+				665F0C63DEF17E438A08A86D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30B58BA722DB8B96000FFBBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30B58BA622DB8B96000FFBBF /* SimprokDigitalTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30B58BA822DB8B96000FFBBF /* SimprokDigitalTest */ = {
+			isa = PBXGroup;
+			children = (
+				3047ED3522DDC1D0006B3124 /* Controller */,
+				3047ED3422DDBE34006B3124 /* View */,
+				3047ED2E22DDB9D6006B3124 /* Model */,
+				30B58BA922DB8B96000FFBBF /* AppDelegate.swift */,
+				30B58BAD22DB8B96000FFBBF /* Main.storyboard */,
+				3047ED3322DDBE1C006B3124 /* Helpers */,
+				30B58BB022DB8B9C000FFBBF /* Assets.xcassets */,
+				30B58BB222DB8B9C000FFBBF /* LaunchScreen.storyboard */,
+				30B58BB522DB8B9C000FFBBF /* Info.plist */,
+			);
+			path = SimprokDigitalTest;
+			sourceTree = "<group>";
+		};
+		665F0C63DEF17E438A08A86D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				378C9BB1283233FEFE529D22 /* Pods_SimprokDigitalTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3465DB2B3AA24E94FC0A389 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EEE0FA83805DC09348E8AC1 /* Pods-SimprokDigitalTest.debug.xcconfig */,
+				DE67463E1B93CC911EE14A36 /* Pods-SimprokDigitalTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30B58BA522DB8B96000FFBBF /* SimprokDigitalTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B58BB822DB8B9C000FFBBF /* Build configuration list for PBXNativeTarget "SimprokDigitalTest" */;
+			buildPhases = (
+				461E2FAAFC6C3C0A8BE182E0 /* [CP] Check Pods Manifest.lock */,
+				30B58BA222DB8B96000FFBBF /* Sources */,
+				30B58BA322DB8B96000FFBBF /* Frameworks */,
+				30B58BA422DB8B96000FFBBF /* Resources */,
+				DB8B82C993D712B8EDCC839C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimprokDigitalTest;
+			productName = SimprokDigitalTest;
+			productReference = 30B58BA622DB8B96000FFBBF /* SimprokDigitalTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30B58B9E22DB8B96000FFBBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = md760;
+				TargetAttributes = {
+					30B58BA522DB8B96000FFBBF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 30B58BA122DB8B96000FFBBF /* Build configuration list for PBXProject "SimprokDigitalTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30B58B9D22DB8B96000FFBBF;
+			productRefGroup = 30B58BA722DB8B96000FFBBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30B58BA522DB8B96000FFBBF /* SimprokDigitalTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30B58BA422DB8B96000FFBBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3088F46922DC9C16009DE1A2 /* InstructorsCell.xib in Resources */,
+				30B58BB422DB8B9C000FFBBF /* LaunchScreen.storyboard in Resources */,
+				30B58BB122DB8B9C000FFBBF /* Assets.xcassets in Resources */,
+				30B58BAF22DB8B96000FFBBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		461E2FAAFC6C3C0A8BE182E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimprokDigitalTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8B82C993D712B8EDCC839C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimprokDigitalTest/Pods-SimprokDigitalTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimprokDigitalTest/Pods-SimprokDigitalTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimprokDigitalTest/Pods-SimprokDigitalTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30B58BA222DB8B96000FFBBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3088F46822DC9C16009DE1A2 /* InstructorsCell.swift in Sources */,
+				30B58BAC22DB8B96000FFBBF /* InstructorsViewController.swift in Sources */,
+				3047ED3222DDBDC3006B3124 /* ApiService.swift in Sources */,
+				3088F46522DC88DD009DE1A2 /* Extensions.swift in Sources */,
+				304EA1BA22DDF56D00FCC7E7 /* TabBarController.swift in Sources */,
+				30B58BAA22DB8B96000FFBBF /* AppDelegate.swift in Sources */,
+				3047ED3022DDB9EA006B3124 /* InstructorsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30B58BAD22DB8B96000FFBBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B58BAE22DB8B96000FFBBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30B58BB222DB8B9C000FFBBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B58BB322DB8B9C000FFBBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30B58BB622DB8B9C000FFBBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30B58BB722DB8B9C000FFBBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30B58BB922DB8B9C000FFBBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEE0FA83805DC09348E8AC1 /* Pods-SimprokDigitalTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SimprokDigitalTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tarasenkoTaras.SimprokDigitalTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30B58BBA22DB8B9C000FFBBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE67463E1B93CC911EE14A36 /* Pods-SimprokDigitalTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SimprokDigitalTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tarasenkoTaras.SimprokDigitalTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30B58BA122DB8B96000FFBBF /* Build configuration list for PBXProject "SimprokDigitalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B58BB622DB8B9C000FFBBF /* Debug */,
+				30B58BB722DB8B9C000FFBBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30B58BB822DB8B9C000FFBBF /* Build configuration list for PBXNativeTarget "SimprokDigitalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B58BB922DB8B9C000FFBBF /* Debug */,
+				30B58BBA22DB8B9C000FFBBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30B58B9E22DB8B96000FFBBF /* Project object */;
+}
