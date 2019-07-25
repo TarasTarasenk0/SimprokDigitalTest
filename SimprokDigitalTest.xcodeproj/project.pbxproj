@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300F4B4222E9896B008FB239 /* ConstValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300F4B4122E9896B008FB239 /* ConstValues.swift */; };
 		3047ED3022DDB9EA006B3124 /* InstructorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047ED2F22DDB9EA006B3124 /* InstructorsModel.swift */; };
-		3047ED3222DDBDC3006B3124 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047ED3122DDBDC3006B3124 /* ApiService.swift */; };
 		304EA1BA22DDF56D00FCC7E7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304EA1B922DDF56C00FCC7E7 /* TabBarController.swift */; };
 		3088F46522DC88DD009DE1A2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3088F46422DC88DD009DE1A2 /* Extensions.swift */; };
 		3088F46822DC9C16009DE1A2 /* InstructorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3088F46622DC9C16009DE1A2 /* InstructorsCell.swift */; };
@@ -22,8 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300F4B4122E9896B008FB239 /* ConstValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstValues.swift; sourceTree = "<group>"; };
 		3047ED2F22DDB9EA006B3124 /* InstructorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorsModel.swift; sourceTree = "<group>"; };
-		3047ED3122DDBDC3006B3124 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		304EA1B922DDF56C00FCC7E7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		3088F46422DC88DD009DE1A2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3088F46622DC9C16009DE1A2 /* InstructorsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorsCell.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				3088F46422DC88DD009DE1A2 /* Extensions.swift */,
-				3047ED3122DDBDC3006B3124 /* ApiService.swift */,
+				300F4B4122E9896B008FB239 /* ConstValues.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			files = (
 				3088F46822DC9C16009DE1A2 /* InstructorsCell.swift in Sources */,
 				30B58BAC22DB8B96000FFBBF /* InstructorsViewController.swift in Sources */,
-				3047ED3222DDBDC3006B3124 /* ApiService.swift in Sources */,
+				300F4B4222E9896B008FB239 /* ConstValues.swift in Sources */,
 				3088F46522DC88DD009DE1A2 /* Extensions.swift in Sources */,
 				304EA1BA22DDF56D00FCC7E7 /* TabBarController.swift in Sources */,
 				30B58BAA22DB8B96000FFBBF /* AppDelegate.swift in Sources */,

@@ -8,18 +8,19 @@
 
 import UIKit
 
-class InstructorsCell: UICollectionViewCell {
+final class InstructorsCell: UICollectionViewCell {
 
-    @IBOutlet weak var loginLabel: UILabel!
-    @IBOutlet weak var typeLabel: UILabel!
-    @IBOutlet weak var idLabel: UILabel!
-    @IBOutlet weak var heartButton: UIButton!
-    @IBOutlet weak var profileImage: UIImageView!
-    @IBOutlet weak var starImage: UIImageView!
+    @IBOutlet private weak var loginLabel: UILabel!
+    @IBOutlet private weak var typeLabel: UILabel!
+    @IBOutlet private weak var idLabel: UILabel!
+    @IBOutlet private weak var heartButton: UIButton!
+    @IBOutlet private weak var profileImage: UIImageView!
+    @IBOutlet private weak var starImage: UIImageView!
     
     var model: InstructorsModel? {
         didSet {
             guard let data = model else { return }
+            starImage.tintColor = .yellow
             loginLabel.text = data.login
             typeLabel.text = data.type
             idLabel.text = String(data.id ?? 0.0)
@@ -34,7 +35,6 @@ class InstructorsCell: UICollectionViewCell {
             profileImage.downloadedFrom(url: url!)
         }
     }
-
     
     override func prepareForReuse() {
         super.prepareForReuse()
